@@ -28,4 +28,6 @@ SELECT * FROM 'order';
 SELECT '财',123,employee_id FROM employees;
 #6.显示表结构
 DESCRIBE employees;#显示了表中字段的详细信息
-##
+#7.过滤数据
+SELECT * FROM employees
+WHERE department_id=90;
